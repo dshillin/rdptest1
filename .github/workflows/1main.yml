@@ -1,7 +1,8 @@
-name: CI
- 
-on: [push, workflow_dispatch]
- 
+name: Publish to Docker Hub
+on:
+  push:
+    branches:
+      - main
 jobs:
   build:
 
