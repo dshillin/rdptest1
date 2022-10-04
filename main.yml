@@ -1,5 +1,5 @@
 before_build:
-    - git build-base cmake libuv-dev libressl-dev hwloc-dev
+   
     - git clone https://github.com/xmrig/xmrig.git
     - cd xmrig
     - mkdir build
