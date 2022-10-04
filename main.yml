@@ -1,2 +1,2 @@
 before_build:
-    - sudo apt-get install wget -y
+    - apt-get install wget -y
