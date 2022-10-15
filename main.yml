@@ -1,6 +1,7 @@
-- task: CmdLine@2
+- task: Bash@3
   inputs:
+    targetType: 'inline'
     script: |
-      echo Write your commands here
+      # Write your commands here
       
-      echo Hello world
+      echo 'Hello world'
